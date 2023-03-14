@@ -1,18 +1,29 @@
 import React from 'react';
+import { FaGithub } from "react-icons/fa";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { HiOutlineMail } from "react-icons/hi";
 
 const Contact = () => {
+
+   
   return (
     <div name="contactContainer" className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white">
-        <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
+         <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
             <div className="pb-8">
                 <p className="text-4xl font-bold inline border-b-4 border-gray-500">
                     Contact Me
                 </p>
-                <p className="py-6"></p>
+                <p className="py-6">
+                    <ul className='flex flex-col md:flex-row justify-evenly'>
+                        <li className="pb-4 pl-2"><a href="mailto: alexanderblanchardac@yahoo.com"><HiOutlineMail size={25}/> alexanderblanchardac@yahoo.com </a></li>
+                        <li className="pb-4 pl-2"><BsFillTelephoneFill size={25}/>07711240217</li>
+                        <li className="pb-4 pl-2"><a href="https://github.com/AlexanderBlanchardAC"><FaGithub size={25} /></a></li>
+                    </ul>
+                </p>
             </div>
             <div className="flex items-center justify-center">
                 <form
-                    action=""
+                    action="https://getform.io/f/e4bcb0f0-264a-4294-b788-99daaa55a5d4"
                     method="POST"
                     className="flex flex-col w-full md:w-1/2"
                 >
@@ -41,7 +52,8 @@ const Contact = () => {
                     </button>
                 </form>
             </div>
-        </div>
+        </div> 
+       
       
     </div>
   )

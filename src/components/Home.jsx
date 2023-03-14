@@ -1,5 +1,5 @@
 import React from 'react';
-import portfolioImage from "../assets/portfolioImage.png";
+import portfolioAlexander from "../assets/portfolioAlexander.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -14,21 +14,18 @@ const Home = () => {
                     I enjoy working with React JS, Next Js, Tailwind and MongoDB to produce front-end and full-stack applicaitons. I am motivated to learn new things and keen to build on my current skillset as ell as expand into learning other languages.
                 </p>
                 <div>
-                    <Link
-                    to="portfolio"
-                    smooth 
-                    duration={600}
+                    <button
                     className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
                     >
                         Portfolio
                     <span className="group-hover:rotate-90 duration-400">
                         <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
                     </span>
-                    </Link>
+                    </button>
                 </div>
             </div>
             <div>
-                <img src={portfolioImage} alt="portfolio" className="rounded-2xl mx-auto w-2/3 md:w-full" />
+                <img src={portfolioAlexander} alt="portfolio Alexander" className="rounded-2xl w-400 h-500 mx-auto w-2/3 md:w-full" />
             </div>
         </div>
     </div>

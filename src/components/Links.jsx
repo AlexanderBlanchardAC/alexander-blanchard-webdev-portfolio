@@ -1,5 +1,5 @@
 import React from 'react';
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { BsFillPersonLinesFill, BsFillTelephoneFill } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaGithub  } from "react-icons/fa";
 
@@ -22,18 +22,10 @@ const Links = () => {
                     GitHub <FaGithub size={30} />
                 </>
             ),
-            href: "https://github.com/",
+            href: "https://github.com/AlexanderBlanchardAC",
         },
         {
             id: 2,
-            child: (
-                <>
-                    Phone Number: 07711240217
-                </>
-            )
-        },
-        {
-            id: 3,
             child: (
                 <>
                     Resume <BsFillPersonLinesFill size={30} />
