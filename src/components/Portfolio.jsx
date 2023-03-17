@@ -1,10 +1,39 @@
 import React from 'react';
+import imageGallery from "../assets/portfolioPics/imageGallery.png";
+import makeAMatch from "../assets/portfolioPics/makeAMatch.png";
+import nownessClone from "../assets/portfolioPics/nownessClone.png";
+import quizMe from "../assets/portfolioPics/quizMe.png";
+import toDoList from "../assets/portfolioPics/toDoList.png";
+import weatherWherever from "../assets/portfolioPics/weatherWherever.png";
 
 
 const Portfolio = () => {
 
     const projects = [
-
+        {
+            id: 1,
+            src: quizMe,
+        },
+        {
+            id: 2,
+            src: imageGallery,
+        },
+        {
+            id: 3,
+            src: weatherWherever,
+        },
+        {
+            id: 4,
+            src: toDoList,
+        },
+        {
+            id: 5,
+            src: makeAMatch,
+        },
+        {
+            id: 6,
+            src: nownessClone,
+        }
     ];
   return (
     <div name="projectsContainer"

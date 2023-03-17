@@ -14,6 +14,11 @@ const Home = () => {
                     I enjoy working with React JS, Next Js, Tailwind and MongoDB to produce front-end and full-stack applicaitons. I am motivated to learn new things and keen to build on my current skillset as ell as expand into learning other languages.
                 </p>
                 <div>
+                    <Link
+                        to="projectsContainer"
+                        smooth
+                        duration={600}
+                    >
                     <button
                     className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
                     >
@@ -22,6 +27,7 @@ const Home = () => {
                         <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
                     </span>
                     </button>
+                    </Link>
                 </div>
             </div>
             <div>
