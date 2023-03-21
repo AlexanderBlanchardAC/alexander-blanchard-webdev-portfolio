@@ -1,7 +1,8 @@
 import React from 'react';
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaFileDownload } from "react-icons/fa";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
+import ABlanchardCV from "../assets/ABlanchardCV.pdf";
 
 const Contact = () => {
 
@@ -17,7 +18,8 @@ const Contact = () => {
                     <ul className='flex flex-col md:flex-row justify-evenly'>
                         <li className="pb-4 pl-2"><a href="mailto: alexanderblanchardac@yahoo.com"><HiOutlineMail size={25}/> alexanderblanchardac@yahoo.com </a></li>
                         <li className="pb-4 pl-2"><BsFillTelephoneFill size={25}/>07711240217</li>
-                        <li className="pb-4 pl-2"><a href="https://github.com/AlexanderBlanchardAC"><FaGithub size={25} /></a></li>
+                        <li className="pb-4 pl-2"><a href="https://github.com/AlexanderBlanchardAC"><FaGithub size={25} />GitHub</a></li>
+                        <li className="pb-4 pl-2"><a href={ABlanchardCV} download="ABlanchardCV"><FaFileDownload size={25} />CV</a></li>
                     </ul>
                 </p>
             </div>

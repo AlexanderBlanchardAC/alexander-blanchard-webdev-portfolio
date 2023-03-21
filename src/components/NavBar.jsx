@@ -10,27 +10,33 @@ const NavBar = () => {
     const navLinks = [
         {
             id: 0,
-            link: "home",
+            label: "Home",
+            link: "homeContainer",
+          
         },
         {
             id: 1,
-            link: "about",
+            label: "About",
+            link: "aboutMeContainer",
+        
         },
         {
             id: 2,
-            link: "projects",
+            label: "Projects",
+            link: "projectsContainer",
+          
+           
         },
         {
             id: 3,
-            link: "tech"
+            label:"Experience",
+            link: "experienceContainer",
         },
         {
             id: 4,
-            link: "experience",
-        },
-        {
-            id: 5,
-            link: "contact",
+            label: "Contact",
+            link: "contactContainer",
+           
         }
     ];
 
@@ -42,13 +48,13 @@ const NavBar = () => {
         <h1 className="text-5xl font-signature ml-2 mt-4">Alexander Blanchard</h1>
     </div>
     <ul className="hidden md:flex">
-        {navLinks.map(({ id, link }) => (
+        {navLinks.map(({ id, label, link }) => (
             <li
                 key={id}
                 className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-110 duration-200"
             >
                 <Link to={link} smooth duration={500}>
-                    {link}
+                    {label}
                 </Link>
             </li>
         ))}
@@ -62,7 +68,7 @@ const NavBar = () => {
 
     {siteNav && (
         <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
-            {navLinks.map(({ id, link }) => (
+            {navLinks.map(({ id, label, link }) => (
                 <li key={id} className="px-4 cursor-pointer capitalize py-6 text-4xl"
                 >
                     <Link onClick={() => setSiteNav(!siteNav)}
@@ -70,7 +76,7 @@ const NavBar = () => {
                     smooth
                     duration={500}
                     >
-                        {link}
+                        {label}
                     </Link>
                 </li>
             ))}

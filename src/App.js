@@ -5,11 +5,13 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Links from "./components/Links";
 import Portfolio from "./components/Portfolio";
+import { BrowserRouter } from "react-router-dom";
 
 
 function App() {
   return (
     <div className="App">
+      <BrowserRouter>
        <NavBar /> 
       <Home />
       <AboutMe />
@@ -17,6 +19,7 @@ function App() {
       <Experience />
       <Contact />
       <Links />
+      </BrowserRouter>
     </div>
   );
 }

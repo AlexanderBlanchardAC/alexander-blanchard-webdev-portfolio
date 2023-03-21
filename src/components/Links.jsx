@@ -2,6 +2,7 @@ import React from 'react';
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaGithub  } from "react-icons/fa";
+import ABlanchardCV from "../assets/ABlanchardCV.pdf"
 
 const Links = () => {
 
@@ -14,6 +15,7 @@ const Links = () => {
                 </>
             ),
             href: "mailto: alexanderblanchardac@yahoo.com",
+            style: "rounded-tr-md"
         },
         {
             id: 1,
@@ -28,10 +30,10 @@ const Links = () => {
             id: 2,
             child: (
                 <>
-                    Resume <BsFillPersonLinesFill size={30} />
+                    CV <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: "",
+            href: ABlanchardCV,
             style: "rounded-br-md",
             download: true,
         }

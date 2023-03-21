@@ -11,7 +11,7 @@ const Home = () => {
             <div className="flex flex-col justify-center h-full">
                 <h2 className="text-4xl sm:text-7xl font-bold text-white">Full Stack Web Development</h2>
                 <p className="text-gray-500 py-4 max-w-md">
-                    I enjoy working with React JS, Next Js, Tailwind and MongoDB to produce front-end and full-stack applicaitons. I am motivated to learn new things and keen to build on my current skillset as ell as expand into learning other languages.
+                    I enjoy working with React JS, Next Js, Tailwind and MongoDB to produce front-end and full-stack applicaitons. I am motivated to continue to build my current skillset as well as expand into learning additional languages.
                 </p>
                 <div>
                     <Link
