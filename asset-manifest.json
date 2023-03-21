@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/alexander-blanchard-webdev-portfolio/static/css/main.3237112a.css",
+    "main.js": "/alexander-blanchard-webdev-portfolio/static/js/main.e1cfcbff.js",
+    "static/media/imageGallery.png": "/alexander-blanchard-webdev-portfolio/static/media/imageGallery.2c7e9344bd242a57970c.png",
+    "static/media/nownessClone.png": "/alexander-blanchard-webdev-portfolio/static/media/nownessClone.076c52b348408cdd7ff6.png",
+    "static/media/makeAMatch.png": "/alexander-blanchard-webdev-portfolio/static/media/makeAMatch.6a9459ae753c59e7f8ad.png",
+    "static/media/quizMe.png": "/alexander-blanchard-webdev-portfolio/static/media/quizMe.18bdad64839f713fb0f0.png",
+    "static/media/weatherWherever.png": "/alexander-blanchard-webdev-portfolio/static/media/weatherWherever.0920291aa16269560936.png",
+    "static/media/ABlanchardCV.pdf": "/alexander-blanchard-webdev-portfolio/static/media/ABlanchardCV.80cfaf4cffe25bb643a1.pdf",
+    "static/media/portfolioAlexander.jpg": "/alexander-blanchard-webdev-portfolio/static/media/portfolioAlexander.7eaf04eb7a05ee629216.jpg",
+    "static/media/react.png": "/alexander-blanchard-webdev-portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/alexander-blanchard-webdev-portfolio/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/nextjs.png": "/alexander-blanchard-webdev-portfolio/static/media/nextjs.48ddc8121a0fcb543d64.png",
+    "static/media/html.png": "/alexander-blanchard-webdev-portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/alexander-blanchard-webdev-portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/alexander-blanchard-webdev-portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/alexander-blanchard-webdev-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/alexander-blanchard-webdev-portfolio/index.html",
+    "main.3237112a.css.map": "/alexander-blanchard-webdev-portfolio/static/css/main.3237112a.css.map",
+    "main.e1cfcbff.js.map": "/alexander-blanchard-webdev-portfolio/static/js/main.e1cfcbff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3237112a.css",
+    "static/js/main.e1cfcbff.js"
+  ]
+}
