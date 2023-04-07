@@ -14,14 +14,14 @@ const Contact = () => {
                 <p className="text-4xl font-bold inline border-b-4 border-gray-500">
                     Contact Me
                 </p>
-                <p className="py-6">
+                <div className="py-6">
                     <ul className='flex flex-col md:flex-row justify-evenly'>
                         <li className="pb-4 pl-2"><a href="mailto: alexanderblanchardac@yahoo.com"><HiOutlineMail size={25}/> alexanderblanchardac@yahoo.com </a></li>
                         <li className="pb-4 pl-2"><BsFillTelephoneFill size={25}/>07711240217</li>
                         <li className="pb-4 pl-2"><a href="https://github.com/AlexanderBlanchardAC"><FaGithub size={25} />GitHub</a></li>
                         <li className="pb-4 pl-2"><a href={ABlanchardCV} download="ABlanchardCV"><FaFileDownload size={25} />CV</a></li>
                     </ul>
-                </p>
+                </div>
             </div>
             <div className="flex items-center justify-center">
                 <form

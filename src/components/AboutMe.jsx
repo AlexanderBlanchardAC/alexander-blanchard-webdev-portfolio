@@ -12,7 +12,7 @@ const AboutMe = () => {
         </div>
 
 
-        <p className="text-xl mt-20">
+        <p className="<text-xl mt-20">
           After working as a teacher for the past 6 years, I am now embarking on a journey to turn my interest in technology into a career. I have taken part in a bootcamp, which taught me skills in React JS, 
           MongoDB, and vanilla JavaScript. I worked on several projects during this course, including a group Fantasy Football App and a Phonics App which was constructed during a team hackathon.
           Since the course, I have deepend my understanding of React JS, especially the use of Redux, and become confident in using Next JS and Node JS. I have also explored the use of Tailwind CSS.
