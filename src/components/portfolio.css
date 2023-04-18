@@ -1,0 +1,21 @@
+#projectsContainer {
+    border-left: 6px solid white;
+    border-right: 6px solid white;
+    position: relative;
+    height: fit-content;
+    padding: 1rem;
+    margin-bottom: 0;
+    border-bottom: 1rem solid red;
+}
+
+.projectType {
+    margin-bottom: 1rem;
+    font-size: 18px;
+    margin-top: 0;
+    color: lightskyblue
+}
+
+#myProjects {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}

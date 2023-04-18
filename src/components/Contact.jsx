@@ -2,7 +2,7 @@ import React from 'react';
 import { FaGithub, FaFileDownload } from "react-icons/fa";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
-import ABlanchardCV from "../assets/ABlanchardCV.pdf";
+import AlexanderBlanchardCV from "../assets/AlexanderBlanchardCV.pdf";
 
 const Contact = () => {
 
@@ -11,7 +11,7 @@ const Contact = () => {
     <div name="contactContainer" className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white">
          <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
             <div className="pb-8">
-                <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+                <p className="text-2xl inline text-pink-400 border-b-4 border-blue-400">
                     Contact Me
                 </p>
                 <div className="py-6">
@@ -19,7 +19,7 @@ const Contact = () => {
                         <li className="pb-4 pl-2"><a href="mailto: alexanderblanchardac@yahoo.com"><HiOutlineMail size={25}/> alexanderblanchardac@yahoo.com </a></li>
                         <li className="pb-4 pl-2"><BsFillTelephoneFill size={25}/>07711240217</li>
                         <li className="pb-4 pl-2"><a href="https://github.com/AlexanderBlanchardAC"><FaGithub size={25} />GitHub</a></li>
-                        <li className="pb-4 pl-2"><a href={ABlanchardCV} download="ABlanchardCV"><FaFileDownload size={25} />CV</a></li>
+                        <li className="pb-4 pl-2"><a href={AlexanderBlanchardCV} download="AlexanderBlanchardCV"><FaFileDownload size={25} />CV</a></li>
                     </ul>
                 </div>
             </div>

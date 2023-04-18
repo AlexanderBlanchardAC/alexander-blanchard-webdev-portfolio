@@ -2,7 +2,7 @@ import React from 'react';
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaGithub  } from "react-icons/fa";
-import ABlanchardCV from "../assets/ABlanchardCV.pdf"
+import AlexanderBlanchardCV from "../assets/AlexanderBlanchardCV.pdf"
 
 const Links = () => {
 
@@ -33,7 +33,7 @@ const Links = () => {
                     CV <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: ABlanchardCV,
+            href: AlexanderBlanchardCV,
             style: "rounded-br-md",
             download: true,
         }

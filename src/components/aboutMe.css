@@ -1,0 +1,19 @@
+/* .aboutMeContainer {
+position: relative;
+height: fit-content;
+background: black;
+color: white;
+padding: 1rem;
+}
+
+.header {
+    color: white;
+} */
+
+#me {
+   border-left: 6px solid white;
+   border-right: 6px solid white;
+    padding: 1rem;
+    position: relative;
+
+}

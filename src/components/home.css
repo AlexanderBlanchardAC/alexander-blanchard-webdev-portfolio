@@ -1,0 +1,15 @@
+#homeContainer {
+  border-left: 6px solid white;
+  border-right: 6px solid white;
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+#title {
+    color: rgb(244 114 182);
+    font-weight: 400;
+}
+
+#intro {
+    padding-right: 1rem;
+}

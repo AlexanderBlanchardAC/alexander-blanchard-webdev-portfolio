@@ -18,7 +18,7 @@ function App() {
       <Portfolio />
       <Experience />
       <Contact />
-      <Links />
+      <Links /> 
       </BrowserRouter>
     </div>
   );
